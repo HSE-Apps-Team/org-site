@@ -70,14 +70,17 @@ const Product = () => {
                 >   
                 
                     <div style={{display: 'flex', flexWrap: "wrap", justifyContent: smallerLayout ? 'center ':'space-between'}}>
-                       
+                        
                         <ProductCard status="Released" title="Clubs" description="Manage, browse, and join clubs in one central place."/>
                         <ProductCard status="Released" title="Schedule" description="View the live bell schedule updated for any occassion."/>
                         <ProductCard status="Released" title="Courses" description="View course options and plan out your academic career. "/>
+                        
                         <ProductCard status="Demoing"title="Tutoring" description="Give and receive real time tutoring anytime, anywhere."/>
+                        
                         <ProductCard status="Building" last={true} title="Pass" description="Receive hall passages and messages from the office."/>
+                        <ProductCard status="Building" last={true} title="Maps" description="Find your way around the building by entering your current room number and destination room number "/>
+                        
                         <ProductCard status="Planning" last={true} title="Sports" description="Get real time scores and notifications for HSE Sports."/>
-
                         <ProductCard status="Planning" last={true} title="Busing" description="Track and communicate with your bus driver on their route."/>
 
                     </div>
