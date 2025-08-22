@@ -74,11 +74,12 @@ const Product = () => {
                         <ProductCard status="Released" title="Clubs" description="Manage, browse, and join clubs in one central place."/>
                         <ProductCard status="Released" title="Schedule" description="View the live bell schedule updated for any occassion."/>
                         <ProductCard status="Released" title="Courses" description="View course options and plan out your academic career. "/>
-                        <ProductCard status="Demoing"title="Tutoring" description="Give and receive real time tutoring anytime, anywhere."/>
-                        <ProductCard status="Building" last={true} title="Pass" description="Receive hall passages and messages from the office."/>
-                        <ProductCard status="Planning" last={true} title="Sports" description="Get real time scores and notifications for HSE Sports."/>
+                        {/* <ProductCard status="Released" title="HSE Maps" description="Explore the HSE campus with our interactive map."/> */}
+                        <ProductCard status="Deprecated"title="Tutoring" description="Give and receive real time tutoring anytime, anywhere."/>
+                        <ProductCard status="Deprecated" last={true} title="Pass" description="Receive hall passages and messages from the office."/>
+                        <ProductCard status="Deprecated" last={true} title="Sports" description="Get real time scores and notifications for HSE Sports."/>
 
-                        <ProductCard status="Planning" last={true} title="Busing" description="Track and communicate with your bus driver on their route."/>
+                        <ProductCard status="Deprecated" last={true} title="Busing" description="Track and communicate with your bus driver on their route."/>
 
                     </div>
                     

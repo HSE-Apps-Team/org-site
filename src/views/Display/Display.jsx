@@ -12,6 +12,7 @@ import useMedia from '../shared/useMedia'
 import club from "../../assets/clubs.png"
 import scheduleImg from "../../assets/schedule.png"
 import courseImg from "../../assets/courses.png"
+import mapsImg from "../../assets/HSE Maps.png"
 
 const {Title, Text} = Typography
 
@@ -22,8 +23,8 @@ const {Title, Text} = Typography
 const schedule = {
     photo : scheduleImg,
     isMobile: true,
-    siteLink: "https://hseschedule.com",
-    githubLink: "https://github.com/HSE-Apps/schedule-client",
+    siteLink: "https://hseschedule.app",
+    githubLink: "https://github.com/HSE-Apps-Team/schedule-client-reformat",
     desc: 'View the live schedule updated for any occassion.'
 
 }
@@ -50,19 +51,27 @@ const tutoring = {
 const courses = {
     photo: courseImg,
     isMobile: false,
-    githubLink: "https://github.com/ArnavMeh/hsecourses-front",
+    githubLink: "https://github.com/HSE-Apps/Courses-Frontend",
     desc: 'View course options and plan out your academic career.',
-    siteLink: 'https://hsecourses.netlify.app',
+    siteLink: 'https://hsecourses.app',
     isDemo: true
 }
 
-
+const maps = {
+    photo: mapsImg,
+    isMobile: false,
+    githubLink: "https://github.com/HSE-Apps-Team/HseMaps",
+    desc: 'Explore the HSE campus with our interactive map.',
+    siteLink: 'https://hsemaps.org',
+    isDemo: true
+}
 
 const data = {
     clubs,
     tutoring,
     schedule,
-    courses
+    courses,
+    maps
 }
 
 

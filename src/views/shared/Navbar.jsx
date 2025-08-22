@@ -59,8 +59,8 @@ const Navbar = () => {
 
                 </div>
                 <div style={{width: "30%", display: "flex", justifyContent: "flex-end", alignItems: "center"}}>
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScLvgEh2bUevdf9v4dFMZprl862m70YwtIqdM899bFhqm5IYg/viewform?usp=sf_link"><Typography.Link style={{margin: "0px 20px"}}>Contact Us</Typography.Link></a>
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc7ZrKa7cJ2hYb6xLoedpXSdseYXhp8pUO_EhXmtl4evk8ofA/viewform?usp=sf_link"><Button type="primary">Join Us</Button></a>
+                    {/* <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScLvgEh2bUevdf9v4dFMZprl862m70YwtIqdM899bFhqm5IYg/viewform?usp=sf_link"><Typography.Link style={{margin: "0px 20px"}}>Contact Us</Typography.Link></a> */}
+                    {/* <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc7ZrKa7cJ2hYb6xLoedpXSdseYXhp8pUO_EhXmtl4evk8ofA/viewform?usp=sf_link"><Button type="primary">Join Us</Button></a> */}
                 </div>
             </>
             }

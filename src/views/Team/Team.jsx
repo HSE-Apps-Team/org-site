@@ -16,6 +16,8 @@ import arnav from "../../assets/people/arnav.jpeg"
 import eric from "../../assets/people/eric.jpeg"
 import meglan from "../../assets/people/meglan.jpeg"
 import sully from "../../assets/people/sully.jpeg"
+// import nic from "../../assets/people/nic.jpeg"
+import john from "../../assets/people/john.jpeg"
 
 import { LinkOutlined} from '@ant-design/icons';
 
@@ -130,23 +132,31 @@ const Team = () => {
                 >
                     
                     <MemberList title="Leadership" noLink={true}>
-                        <TeamCard info={{name: "Aryadeep Buddha", img: arya, li:"https://www.linkedin.com/in/aryadeep-buddha-57b751211/", gh: "https://github.com/AryaBuddha", roles: ['Leadership', 'Project Lead','Fullstack']}}/>
-
-                        <TeamCard info={{name: "Lakshay Mahajan", img:lakshay, li: "https://www.linkedin.com/in/lakshay-mahajan-8b986a237/", gh: "https://github.com/lakshayMahajan", roles: ['Leadership','Backend', 'Mobile'], }}/>
+                        <TeamCard info={
+                            {name: "John Patch",
+                                li: "https://www.linkedin.com/in/john-patch/",
+                                gh: "https://github.com/legojrp",
+                                roles: ['Leadership', "Fullstack"],
+                                img: john
+                            }
+                        } />
                     </MemberList>
 
-                    <MemberList title="Members" noLink={true}>
-                        <TeamCard info={{name: "Ethan Donahue", li: "https://www.linkedin.com/in/ethan-donahue-69834b197/", gh: "https://github.com/ethandonahue", roles: ['Frontend'], img: ethan}}/>
+                    {/* <MemberList title="Members" noLink={true}>
+
+                    </MemberList> */}
+                    <MemberList title="Previous Members" noLink={true}>
+                        {/* <TeamCard info={{name: "Ethan Donahue", li: "https://www.linkedin.com/in/ethan-donahue-69834b197/", gh: "https://github.com/ethandonahue", roles: ['Frontend'], img: ethan}}/>
                         <TeamCard info={{name: "Meglan O'mera", roles: ['Frontend', 'Design'], img: meglan}}/>
                         <TeamCard info={{name: "Eric Bedrosian", roles: ['Outreach'], img:eric}}/>
                         <TeamCard info={{name: "Ethan Zentz", gh: "https://github.com/ezlikespie", roles: ['Fullstack'], img: ethan}}/>
                         <TeamCard info={{name: "Anish Kambhampati", roles: ['Backend'],gh: "https://github.com/kambhani", img: anish}}/>
                         <TeamCard info={{name: "Alec Thierion De Monclin", roles: ['Backend'], img: alec}}/>
-                        <TeamCard info={{name: "Sullivan Schena", roles: ['Frontend'], img: sully}}/>
-
-                    </MemberList>
-                    <MemberList title="Previous Members" noLink={true}>
-                        <TeamCard info={{
+                        <TeamCard info={{name: "Sullivan Schena", roles: ['Frontend'], img: sully}}/> */}
+                        <TeamCard info={{name: "Nic Walter", roles: ['Frontend', 'Design']}}/>
+                        <TeamCard info={{name: "Lakshay Mahajan", img:lakshay, li: "https://www.linkedin.com/in/lakshay-mahajan-8b986a237/", gh: "https://github.com/lakshayMahajan", roles: ['Leadership','Backend', 'Mobile'], }}/>
+                        <TeamCard info={{name: "Aryadeep Buddha", img: arya, li:"https://www.linkedin.com/in/aryadeep-buddha-57b751211/", gh: "https://github.com/AryaBuddha", roles: ['Leadership', 'Project Lead','Fullstack']}}/>
+                        {/* <TeamCard info={{
                             name: "Preston McCrary", 
                             li: "https://www.linkedin.com/in/preston-mccrary-62b90a178/", 
                             gh: "https://github.com/prestonmccrary", 
@@ -155,7 +165,7 @@ const Team = () => {
                         }}
                         />
                         <TeamCard info={{name: "Arnav Mehra", img: arnav, gh: "https://github.com/ArnavMeh", roles: ['Fullstack']}}/>
-                        <TeamCard info={{name: "Aaron Ni", img: aaron, roles: ['Frontend', 'Mobile']}}/>
+                        <TeamCard info={{name: "Aaron Ni", img: aaron, roles: ['Frontend', 'Mobile']}}/> */}
                     </MemberList>
 
                    

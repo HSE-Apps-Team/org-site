@@ -72,9 +72,9 @@ const Resource = () => {
                     <div style={{display: 'flex', flexWrap: "wrap", justifyContent: smallerLayout ? 'center ':'space-between'}}>
                        
                      
-                        <ResourceCard link="https://github.com/HSE-Apps/hse-key" status="Released" title="Key" description="The auth and utility API powering our creations."/>
-                        <ResourceCard  status="Released" title="Boiler" description="React boiler plate that integrates Microsoft Active Directory, allowing for rapid development."/>
-                        <ResourceCard status="Building" title="Lib" description="A client library for Key."/>
+                        <ResourceCard link="https://github.com/HSE-Apps/hse-key" status="Deprecated" title="Key" description="The auth and utility API powering our creations."/>
+                        <ResourceCard  status="Deprecated" title="Boiler" description="React boiler plate that integrates Microsoft Active Directory, allowing for rapid development."/>
+                        <ResourceCard status="Deprecated" title="Lib" description="A client library for Key."/>
 
                     </div>
                     
