@@ -37,7 +37,8 @@ const ProductCard = ({img, title, description, last, status, link}) => {
         "Released" : "#1890ff",
         "Demoing" : "#1b18ff",
         "Building" : "#9618ff",
-        "Planning": "#eb2f96"
+        "Planning": "#eb2f96",
+        "Deprecated": "#ff0000"
     }
 
     const links = {
